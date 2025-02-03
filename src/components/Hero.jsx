@@ -40,7 +40,7 @@ const Hero = () => {
             transition={{ duration: 1.4, delay: 0.5 }}
             className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>I love to create websites and play games like cricket, football, computer games etc. I love to read books.</motion.p>
           <motion.a
-            target='_blank' href="/public/_Resume_of_Anonda Biswas (1).pdf"
+            target='_blank' href="/_Resume_of_Anonda Biswas (1).pdf"
             download={'/public/_Resume_of_Anonda Biswas (1).pdf'} 
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
