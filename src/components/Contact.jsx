@@ -69,8 +69,8 @@ const Contact = () => {
                         <div>
                             <h3 className='text-2xl font-semibold text-gray-300'>Follow Me</h3>
                             <div className='flex gap-3 text-2xl transition-all mt-5'>
-                                <a target='_blank' href="https://www.facebook.com/ananda.biswas.31797"><FaFacebook className='text-blue-400' /></a>
-                                <a target='_blank' href="https://www.instagram.com/"><FaInstagram className='text-blue-400' /></a>
+                                <a target='_blank' href="https://www.facebook.com/anondabiswas25"><FaFacebook className='text-blue-400' /></a>
+                                <a target='_blank' href="https://www.instagram.com/anondabiswas10/"><FaInstagram className='text-blue-400' /></a>
                                 <a target='_blank' href="https://www.linkedin.com/"><FaLinkedin className='text-blue-400' /></a>
                                 <a target='_blank' href="https://x.com/"><FaSquareXTwitter className='text-blue-400' /></a>
                             </div>

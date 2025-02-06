@@ -41,14 +41,14 @@ const Hero = () => {
             className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>I love to create websites and play games like cricket, football, computer games etc. I love to read books.</motion.p>
           <motion.a
             target='_blank' href="/_Resume_of_Anonda Biswas (1).pdf"
-            download={'/public/_Resume_of_Anonda Biswas (1).pdf'} 
+            download={'/_Resume_of_Anonda Biswas (1).pdf'} 
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.4, delay: 0.5 }}
             className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md w-4/12 text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] '><Download  className='w-5 h-5' />Resume Download  </motion.a>
           <div className='flex gap-3 text-2xl transition-all mt-5 md:mt-0'>
-            <a target='_blank' href="https://www.facebook.com/ananda.biswas.31797">  <FaFacebook className='hover:text-blue-400' /></a>
-            <a target='_blank' href="https://www.instagram.com/"><FaInstagram className='hover:text-blue-400' /></a>
+            <a target='_blank' href="https://www.facebook.com/anondabiswas25">  <FaFacebook className='hover:text-blue-400' /></a>
+            <a target='_blank' href="https://www.instagram.com/anondabiswas10/"><FaInstagram className='hover:text-blue-400' /></a>
             <a target='_blank' href="https://www.linkedin.com/"><FaLinkedin className='hover:text-blue-400' /></a>
             <a target='_blank' href="https://x.com/"><FaSquareXTwitter className='hover:text-blue-400' /></a>
           </div>
